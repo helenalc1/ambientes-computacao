@@ -1,5 +1,5 @@
-## Este é um trabalho apresentado à disciplina de Ambientes em Computação do programa de blá blá ...
-Alunos: Fabiano, Helena, Rossana e Thaiane  
+## Este é um trabalho apresentado à disciplina de Ambientes em Computação do Programa de Pós Graduação em Bioinformática da Universidade Federal de Minas Gerais
+Alunos: Fabiano Santana, Helena L. Costa, Rossana O. Souza e Thaiane  G. Nascimento
 Algoritmo implementado: Algoritmo de sequênciamento de Needleman Wunch  
 
 ## Como baixar e rodar o repositório
