@@ -12,7 +12,12 @@ Certifique-se de que você possui o Python instalado. Para rodar o programa, uti
 ```sh 
 python needleman_wunsch.py
 ```
+
 ## Funcionamento do algoritmo
- explicar aqui...
+O alinhamento de sequências permite comparar duas ou mais sequências, o que permite a análise de padrões e homologias entre diferentes organismos. Tais padrões podem estar relacionados a diferenciadas funções dos genes, podem relacionar-se com similaridade entre os organismos, evidenciando relacionamento evolutivo, dentre outros. As sequências podem ser alinhadas de forma local ou global. No caso do alinhamento global, busca-se a maior sub-sequencia comum entre as duas sequências, permitindo inserções e deleções e fazendo com que o alinhamento se extenda para todo o comprimento das sequências. 
+
+As sequências biológicas são analisadas na forma de strings e, portanto, tais dados devem ser comparados por meio da função score, que determina as semelhanças ou diferenças entre as sequências. A partir da determinação da estrutura da função score e seus pesos é necessária a utilização de técnicas computacionais para obtenção de um alinhamento entre as sequências que otimize a função score. Um dos algoritmos mais tradicionais para a finalidade de alinhamento global é o Needleman-Wunsch. Ele utiliza técnicas de programação dinâmica, com custo de ordem O(n 2), pela sua complexidade quadrática.
+
+O presente script contém o algoritmo Needleman-Wunsch para comparação de diferentes sequências.
 
 
